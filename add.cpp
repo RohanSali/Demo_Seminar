@@ -1,18 +1,8 @@
 #include <iostream>
 using namespace std;
-class A
-{
-    int a=10;
-    public:
-    friend void display();
-};
-void display()
-    {
-        A obj;
-        cout<<"a = "<<obj.a<<endl;
-    }
 int main()
 {
-    display();
+    int a=10;
+    cout<<"a+1 : "<<++a<<endl;
     return 0 ;
 }
